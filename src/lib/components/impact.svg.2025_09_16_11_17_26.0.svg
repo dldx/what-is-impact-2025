@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="103.01661mm"
+   height="103.01661mm"
+   viewBox="0 0 103.01661 103.01661"
+   version="1.1"
+   id="svg14411"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="impact.svg"
+   inkscape:dataloss="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14413"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1531478"
+     inkscape:cx="127.47715"
+     inkscape:cy="311.32176"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs14408" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-51.196982,-47.978989)">
+    <g
+       id="g17466">
+      <path
+         sodipodi:type="star"
+         style="fill:#fce94f;stroke-width:1.101;stroke-miterlimit:2;stop-color:#000000"
+         id="path17457"
+         inkscape:flatsided="false"
+         sodipodi:sides="32"
+         sodipodi:cx="57.763123"
+         sodipodi:cy="93.080566"
+         sodipodi:r1="38.256306"
+         sodipodi:r2="51.697708"
+         sodipodi:arg1="0.38015018"
+         sodipodi:arg2="0.47832495"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 93.288269,107.27595 10.370381,9.6007 -13.822368,-2.94285 8.298114,11.43939 -12.982655,-5.58292 5.906955,12.83847 -11.644025,-8.00843 3.288795,13.74416 -9.857922,-10.12618 0.544248,14.12169 -7.692984,-11.8548 -2.221214,13.95652 -5.232409,-13.12784 -4.901316,13.25501 -2.570756,-13.89638 -7.393063,12.04412 0.18969,-14.1309 -9.600699,10.37039 2.942847,-13.82237 -11.439385,8.29811 5.582911,-12.98266 -12.838462,5.90696 8.008428,-11.64403 -13.744165,3.2888 10.126184,-9.85792 L 8.4837127,108.70724 20.338511,101.01425 6.3819908,98.793038 19.509829,93.560628 6.254817,88.659313 20.1512,86.088557 8.1070785,78.695494 22.237976,78.885184 11.867594,69.284485 25.689963,72.227332 17.391849,60.787947 30.374504,66.370858 24.467549,53.532396 36.111574,61.540823 32.82278,47.796659 l 9.857921,10.126184 -0.544248,-14.121686 7.692984,11.854798 2.221214,-13.95652 5.23241,13.127838 4.901315,-13.255012 2.570756,13.896383 7.393063,-12.044122 -0.18969,14.130898 9.600699,-10.370382 -2.942847,13.822369 11.439385,-8.298114 -5.582911,12.982655 12.838462,-5.906955 -8.008427,11.644025 13.744164,-3.288795 -10.126184,9.857922 14.121684,-0.544248 -11.854796,7.692984 13.956516,2.221214 -13.127834,5.232409 13.255014,4.901316 -13.896385,2.57076 12.044125,7.39306 z"
+         inkscape:transform-center-x="-3.6952773"
+         inkscape:transform-center-y="-9.5914757"
+         transform="translate(44.942165,6.4067277)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.6189px;line-height:1.25;font-family:'Futura Md Bt';-inkscape-font-specification:'Futura Md Bt, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="66.809868"
+         y="108.82299"
+         id="text17461"><tspan
+           sodipodi:role="line"
+           id="tspan17459"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:Impact;-inkscape-font-specification:'Impact Condensed';stroke-width:0.264583"
+           x="66.809868"
+           y="108.82299">IMPACT</tspan></text>
+    </g>
+  </g>
+</svg>

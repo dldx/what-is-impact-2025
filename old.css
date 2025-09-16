@@ -1,0 +1,165 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/* @import '@fontsource/atkinson-hyperlegible';
+@import '@fontsource/monaspace-neon'; */
+@import '@fontsource-variable/jetbrains-mono';
+
+/* presentation */
+@import '@animotion/core/theme';
+
+/* tailwind */
+@import 'tailwindcss/theme';
+@import 'tailwindcss/utilities';
+@source '../../node_modules/@animotion/core';
+
+/* reset */
+*,
+*::before,
+*::after {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/* defaults */
+:root {
+	--r-background-color: rgb(0, 55, 68); /* CTI Primary color */
+	--r-main-font: 'Jost*', 'Jost', 'Tw Cen MT', Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+	--r-main-font-size: 48px;
+	--r-main-color: rgb(255, 255, 255); /* White text */
+	--r-heading-font: "Merriweather", serif;
+	--r-code-font: ui-monospace, 'Roboto Mono', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+	--r-link-color: rgb(149, 193, 115); /* CTI Tertiary green */
+
+	/* CTI Theme Colors */
+	--cti-primary: rgb(0, 55, 68);
+	--cti-primary-light: rgb(156, 175, 181);
+	--cti-secondary: rgb(82, 120, 128);
+	--cti-tertiary: rgb(149, 193, 115);
+	--cti-surface: rgb(179, 201, 206);
+	--cti-surface-light: rgb(244, 247, 248);
+	--cti-warning: rgb(236, 168, 80);
+	--cti-error: rgb(217, 89, 89);
+
+	--ease: linear(
+		0 0%,
+		0.0036 9.62%,
+		0.0185 16.66%,
+		0.0489 23.03%,
+		0.0962 28.86%,
+		0.1705 34.93%,
+		0.269 40.66%,
+		0.3867 45.89%,
+		0.5833 52.95%,
+		0.683 57.05%,
+		0.7829 62.14%,
+		0.8621 67.46%,
+		0.8991 70.68%,
+		0.9299 74.03%,
+		0.9545 77.52%,
+		0.9735 81.21%,
+		0.9865 85%,
+		0.9949 89.15%,
+		1 100%
+	);
+	--view-transition-duration: 0.6s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: var(--r-heading-font);
+
+}
+html {
+	font-size: 20px;
+}
+/* code block background */
+div:has(> pre) {
+	padding: --spacing(4) --spacing(8);
+	background-color: rgb(82, 120, 128); /* CTI Secondary color */
+	border-top: 1px solid rgb(179, 201, 206); /* CTI Surface color */
+	border-radius: var(--radius-lg);
+}
+
+/* for animations */
+.hidden {
+	display: none;
+}
+
+/* view transitions */
+html {
+	view-transition-name: none;
+}
+
+/* all view transitions */
+::view-transition-group(*) {
+	animation-duration: var(--view-transition-duration);
+	animation-timing-function: var(--ease);
+}
+
+/* entry transition */
+::view-transition-new(*):only-child {
+	animation: scale-in var(--view-transition-duration) var(--ease);
+}
+
+/* exit transition */
+::view-transition-old(*):only-child {
+	animation: scale-out var(--view-transition-duration) var(--ease);
+}
+
+@keyframes scale-in {
+	from {
+		scale: 0;
+		opacity: 0;
+	}
+}
+
+@keyframes scale-out {
+	to {
+		scale: 0;
+		opacity: 0;
+	}
+}
+
+@keyframes rotate {
+	from {
+		opacity: 0;
+	}
+	20% {
+		rotate: 0deg;
+	}
+	40% {
+		opacity: 1;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+
+
+.reveal .slide-background-content {
+	border: 20px solid var(--r-background-color);
+	background-color: var(--r-background-color) !important;
+	background-image: url('/images/CTI_Logo_Dark.svg') !important;
+	background-repeat: no-repeat !important;
+	background-position: top left !important;
+	background-size: 200px auto !important;
+	top: 0;
+}
+.reveal {
+	color: var(--r-main-color);
+	font-family: var(--r-main-font);
+	font-size: var(--r-main-font-size);
+	font-weight: normal;
+}
+.reveal .controls {
+	color: var(--r-link-color);
+}
+
+.reveal .progress {
+	color: var(--r-link-color);
+}
